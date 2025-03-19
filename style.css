@@ -1,0 +1,146 @@
+ /*aplica pra todo o código */
+
+/* margin espaçamendo do lado de fora da caixa 
+   padding cria espaçamento do lado de dentro da caixa
+   espaçamento em baixo é bottom, na esquerda é left, na direita right, em cima é top
+
+   box-sizing: border-box; facilita a forma que calcula a distãncia*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        background-color: #fafafa; /*cor de fundo*/
+        width: 100vw; /* width é largura, VW vai ocupar a tela toda de largura */
+        height: 100vh; /* height é altura, VH ocupa a tela na altura*/
+        display: flex; /* display flex, eu decido como os itens vão se comportar*/
+        align-items: center; /* align-items, alinha os intens na vertical*/
+        justify-content: center; /* justifica o texto, alinha na horizontal*/
+        font-family: sans-serif; /*muda a fonte*/
+        
+    }
+
+    
+.img-logo {
+    margin-bottom: 20px;
+}
+
+.caixa-imagens{
+    position: relative; /* Como vamos posicionar os elementos */
+}
+
+.img-cel {
+
+    width: 450px;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+}
+
+/* border é a borda: 1grossura da borda 2se a borda é trasejada, continua etc. 3cor da borda*/
+.caixa-form {
+    width: 350px;
+    border: 3px solid #dbdbdb;
+
+/*valors pedding: cima,direita,baixo,esqueda*/
+    padding: 50px 40px 20px 40px;
+
+/* display flex, eu decido como os itens vão se comportar*/
+    display: flex;
+
+/* flex-direction, a direção que os itens vão estar se é coluna ou linha */
+    flex-direction: column;
+
+/*COR DE FUNDO*/
+    background-color: #ffffff;
+}
+
+input{
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px; /* é o arredondamento da borda */
+    outline: none; /* outline é a borda que fica em volta do input, none significa = NADA, não quero borda*/
+    padding-left: 5px;
+    color: #262626;
+}
+
+button{
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer; /* muda o curso do mause pra mãozinha quando coloca em cima do botão*/
+}
+
+.login-face {
+    color: #385185;
+    font-size: 14px; /* font-size é o tamanha o texto */
+    font-weight: bold; /* font-weight é a espessura da fonte, BOLD é = a NEGRITO */
+    text-align: center; /* é o alinhamento do texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.caixa-cadastra {
+    
+    width: 350px;
+    border: 3px solid #dbdbdb;
+    padding: 20px 40px 20px 40px;
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 470px;
+    margin-left: -350px;
+
+}
+
+.uma-conta {
+    color: #262626;
+    text-align: center;
+    font-weight: 200;
+}
+
+.cadastras-se {
+    color: #0095f6;
+    font-weight: 200;
+    margin-left: 5px;
+    font-weight: 200;
+}
+
+.aplicativo {
+    color: #262626;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 600px;
+    margin-left: -250px;
+}
+
+.imagem-ios {
+    margin-top: 690px;
+    margin-left: -190px;
+}
+
+.img-google {
+    height: 35px;
+    margin-right: 5px;
+}
+
+.img-ios {
+    height: 35px;
+}
