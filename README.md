@@ -1,4 +1,4 @@
-<h1> Meu primeiro projeto utilizando JavaScrip, tela de login do Instagram</h1>
+<h1> Meu primeiro projeto utilizando JavaScript, tela de login do Instagram</h1>
 <br>
 <br>
 
